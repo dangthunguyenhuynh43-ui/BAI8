@@ -1,1 +1,122 @@
-# BAI8
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tin học 12 - Luyện tập & Vận dụng trang 51</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        line-height: 1.6;
+        background-color: #f7f9fc;
+        color: #111;
+    }
+    h1, h2, h3 {
+        color: #1e40af;
+    }
+    h1 {
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    em { font-style: italic; }
+    strong { font-weight: bold; }
+    ul {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .section {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .highlight {
+        background: #e0f2fe;
+        padding: 4px 6px;
+        border-radius: 4px;
+    }
+    img.example-img {
+        display: block;
+        max-width: 400px;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+</style>
+</head>
+<body>
+
+<h1>Tin học 12 - Luyện tập & Vận dụng (Trang 51)</h1>
+
+<!-- Luyện tập 1 -->
+<div class="section" id="luyen-tap-1">
+    <h2>Luyện tập 1</h2>
+    <p><strong>Đề bài:</strong> Hãy sửa lại phần tử sau để làm nổi bật ý chính của câu:</p>
+    <p>&lt;p&gt; thẻ strong vào thẻ em được sử dụng để nhấn mạnh vào nội dung trong phần tử. Thẻ B chỉ có tác dụng in đậm văn bản &lt;p&gt;.</p>
+    <p><strong>Lời giải:</strong></p>
+    <p><strong>Thẻ strong</strong> vào <em>thẻ em</em> được sử dụng để nhấn mạnh vào nội dung trong phần tử. Thẻ <strong>B</strong> chỉ có tác dụng in đậm văn bản.</p>
+</div>
+
+<!-- Luyện tập 2 -->
+<div class="section" id="luyen-tap-2">
+    <h2>Luyện tập 2</h2>
+    <p><strong>Đề bài:</strong> Trình bày đoạn văn bản sau bằng mã HTML:</p>
+    <pre class="highlight">
+INTERNET TỐC ĐỘ CAO
+Dịch vụ Internet tốc độ cao là dịch vụ internet cáp quang chất lượng cao, ổn định, giá cả hợp lý.
+Các tính năng nổi bật:
+- Tốc độ siêu cao từ 150MBps trở lên
+- Lắp đặt nhanh chóng trong 24h
+- Phù hợp với cá nhân/Hộ gia đình
+- Tặng modem 2 băng tần
+- Miễn phí lắp đặt hỗ trợ 24/7
+    </pre>
+    <p><strong>Lời giải (HTML):</strong></p>
+    <h1>INTERNET TỐC ĐỘ CAO</h1>
+    <p><em>Dịch vụ Internet tốc độ cao là dịch vụ internet cáp quang chất lượng cao, ổn định, giá cả hợp lí.</em></p>
+    <h2><strong>Các tính năng nổi bật:</strong></h2>
+    <ul>
+        <li>Tốc độ siêu cao từ 150 MBps trở lên</li>
+        <li>Lắp đặt nhanh chóng trong 24h</li>
+        <li>Phù hợp với cá nhân/Hộ gia đình</li>
+        <li>Tặng modem 2 băng tần</li>
+        <li>Miễn phí lắp đặt hỗ trợ 24/7</li>
+    </ul>
+</div>
+
+<!-- Vận dụng 1 -->
+<div class="section" id="van-dung-1">
+    <h2>Vận dụng 1</h2>
+    <p><strong>Đề bài:</strong> Hãy chỉ ra các bước cần thực hiện để sử dụng một màu cụ thể trong bức ảnh làm màu cho tiêu đề một bài thơ.</p>
+    <p><strong>Lời giải:</strong></p>
+    <ol>
+        <li><strong>Chọn màu cụ thể:</strong> Trước tiên, bạn cần quyết định màu sắc bạn muốn sử dụng cho tiêu đề của bài thơ.</li>
+        <li><strong>Chọn ảnh nền:</strong> Chọn một bức ảnh phù hợp để sử dụng làm nền cho tiêu đề. Bạn cũng có thể sử dụng một ảnh trắng đơn giản và thêm màu sắc sau đó.</li>
+        <li><strong>Tạo tiêu đề trong HTML:</strong> Sử dụng thẻ &lt;h1&gt;, &lt;h2&gt;, hoặc &lt;h3&gt; để tạo tiêu đề của bài thơ.</li>
+        <li><strong>Thêm ảnh nền và thuộc tính color:</strong> Đặt CSS để thay đổi màu chữ dựa trên màu của bức ảnh hoặc màu đã chọn.</li>
+    </ol>
+</div>
+
+<!-- Vận dụng 2 -->
+<div class="section" id="van-dung-2">
+    <h2>Vận dụng 2</h2>
+    <p><strong>Đề bài:</strong> Hãy đưa ra các định dạng một đoạn văn bản để được kết quả như sau:</p>
+   <img src="TIN.png" alt="Hình minh họa định dạng văn bản">
+    <p><strong>Lời giải:</strong></p>
+    <ul>
+        <li>Định dạng chữ <strong>đậm</strong></li>
+        <li>Định dạng chữ <em>nghiêng</em></li>
+        <li>Định dạng <span style="font-size:20px;">cỡ chữ</span></li>
+    </ul>
+</div>
+
+</body>
+</html>

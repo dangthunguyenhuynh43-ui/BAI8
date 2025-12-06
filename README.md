@@ -78,18 +78,17 @@ Các tính năng nổi bật:
 - Phù hợp với cá nhân/Hộ gia đình
 - Tặng modem 2 băng tần
 - Miễn phí lắp đặt hỗ trợ 24/7
-    </pre>
-    <p><strong>Lời giải (HTML):</strong></p>
-    <h1>INTERNET TỐC ĐỘ CAO</h1>
-    <p><em>Dịch vụ Internet tốc độ cao là dịch vụ internet cáp quang chất lượng cao, ổn định, giá cả hợp lí.</em></p>
-    <h2><strong>Các tính năng nổi bật:</strong></h2>
-    <ul>
-        <li>Tốc độ siêu cao từ 150 MBps trở lên</li>
-        <li>Lắp đặt nhanh chóng trong 24h</li>
-        <li>Phù hợp với cá nhân/Hộ gia đình</li>
-        <li>Tặng modem 2 băng tần</li>
-        <li>Miễn phí lắp đặt hỗ trợ 24/7</li>
-    </ul>
+   </pre>
+<p><strong>Lời giải (HTML):</strong></p>
+
+<!-- Ảnh thứ 1 -->
+<img src="1.png" 
+     style="max-width:100%; height:auto;">
+
+<!-- Ảnh thứ 2 -->
+<img src="2.png"
+     style="max-width:100%; height:auto;">
+
 </div>
 
 <!-- Vận dụng 1 -->
